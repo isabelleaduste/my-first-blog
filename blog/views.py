@@ -43,3 +43,6 @@ def post_edit(request, pk):
 
 def environmental(request):
     return render(request, 'blog/environmentalhome.html', {})
+
+def social(request):
+    return render(request, 'blog/socialhomepage.html', {})
