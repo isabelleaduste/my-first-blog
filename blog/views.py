@@ -45,4 +45,7 @@ def environmental(request):
     return render(request, 'blog/environmentalhome.html', {})
 
 def social(request):
-    return render(request, 'blog/socialhomepage.html', {})
+    return render(request, 'blog/socialhome.html', {})
+
+def political(request):
+    return render(request, 'blog/politicalhome.html', {})
