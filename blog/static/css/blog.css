@@ -53,3 +53,17 @@ h1, h2, h3, h4 {
 .post h1 a, .post h1 a:visited {
     color: #000000;
 }
+
+
+.environmentalhome {
+    width: 90%;
+    height:250px;
+    background-color: #79bd9f;
+    background-size:cover;
+    padding:50px;
+    position: right;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+
+}
