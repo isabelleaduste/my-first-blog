@@ -54,3 +54,153 @@ h1, h2, h3, h4 {
     color: #000000;
 }
 
+header {
+    color: white;
+    background-color: #2D797F;
+    text-align: center;
+}
+
+h1 {
+    padding: 1;
+    font-size: 60px;
+    font-family: 'Questrial', sans-serif;
+}
+
+h2 {
+    padding: 1;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    padding: 7;
+    color: black;
+    background-color: lightgrey;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+#content-container {
+    float:left;
+    width: 70%;
+
+}
+
+#subtopicdesc {
+    width: 90%;
+    height:250px;
+    background-image: url("https://68.media.tumblr.com/61728bf47e576f1631d1a88de4c8c9ea/tumblr_otrlj1M8l91v64ksyo1_1280.jpg");
+    background-size:cover;
+    padding:50px;
+    position: right;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#subtopic1 {
+    width: 90%;
+    height:250px;
+    background-image: url("https://68.media.tumblr.com/7c93788efa9dcafcb3183aab72dc4523/tumblr_otyrmpbKuw1v64ksyo2_1280.png");
+    background-size:cover;
+    padding:50px;
+    position: right;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    border-style: solid;
+
+}
+
+
+#subtopic2 {
+    width: 90%;
+    height:250px;
+    background-image: url("https://68.media.tumblr.com/ea15b983ffbd28f55c7ec090b0aacdf9/tumblr_otyrmpbKuw1v64ksyo1_1280.png");
+    background-size:cover;
+    padding:50px;
+    position: right;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    border-style: solid;
+
+}
+
+
+
+#subtopic3 {
+    width: 90%;
+    height:250px;
+    background-image: url("https://68.media.tumblr.com/a649d5ff177cabc8e6f8970c0c45f518/tumblr_otyrmpbKuw1v64ksyo3_1280.png");
+    background-size:cover;
+    padding:50px;
+    position: right;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    border-style: solid;
+
+}
+
+#sidebar-container {
+    float:right;
+    width: 25%;
+
+}
+
+#title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+#sidebar {
+    width:200px;
+    height:300px;
+    background-color: lightgrey;
+    background-size:cover;
+    padding:50px;
+    position: right;
+}
+
+#sidebar2 {
+    width:200px;
+    height:300px;
+    background-color: lightgrey;
+    background-size:cover;
+    padding:50px;
+    position: right;
+}
+
+#sidebar3 {
+    width:200px;
+    height:100px;
+    background-color: lightgrey;
+    background-size:cover;
+    padding:50px;
+    position: right;
+}
+
+a:link {
+    color: #32704a;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #32704a;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #32704a;
+    background-color: transparent;
+    text-decoration: underline;
+}
