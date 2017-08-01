@@ -41,11 +41,11 @@ def post_edit(request, pk):
         form = PostForm(instance=post)
     return render(request, 'blog/post_edit.html', {'form': form})
 
-def environmental(request):
-    return render(request, 'blog/environmentalhome.html', {})
+#def environmental(request):
+    #return render(request, 'blog/environmentalhome.html', {})
 
-def social(request):
-    return render(request, 'blog/socialhome.html', {})
+#def social(request):
+    #return render(request, 'blog/socialhome.html', {})
 
-def political(request):
-    return render(request, 'blog/politicalhome.html', {})
+#def political(request):
+    #return render(request, 'blog/politicalhome.html', {})
